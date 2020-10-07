@@ -12,7 +12,6 @@ import "./App.css";
 import Posts from "./components/Posts/Posts";
 import SearchBar from "./components/SearchBar/SearchBar";
 import DummyData from "./dummy-data";
-import LikeSection from "./components/Posts/LikeSection";
 
 const App = () => {
   const [posts, setPosts] = useState(DummyData);
